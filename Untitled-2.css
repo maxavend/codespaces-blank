@@ -1,0 +1,245 @@
+/* Fuente Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 16px; /* Bordes del contenedor a 16px */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo de las preguntas */
+.question {
+    margin-bottom: 20px;
+}
+
+/* Slider Estilo */
+.slider-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 10px; /* Bordes del slider a 10px */
+    background: #d1d1d1;
+    outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #007bff;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #007bff;
+    cursor: pointer;
+}
+
+/* Etiquetas de las respuestas */
+.label-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 8px; /* Espacio entre la barra y las etiquetas */
+}
+
+.labels {
+    display: flex;              /* Habilita flexbox */
+    justify-content: space-between; /* Espacia los elementos automáticamente */
+    font-size: 12px; /* Tamaño de fuente */
+    color: #555;
+    text-align: center; /* Centra el texto de las etiquetas */
+    width: 100%; /* Asegura que cada etiqueta ocupe un 20% */
+}
+
+/* Contenedor de botón de Submit */
+.fill-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px; /* Espaciado interno ajustado */
+    border-radius: 10px; /* Bordes del botón a 10px */
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Añadido para suavizar transiciones */
+    width: 100%; /* Hace que el botón ocupe todo el ancho */
+}
+
+.submit-btn:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+}
+
+.submit-btn:active {
+    background-color: #004494; /* Color de fondo al presionar */
+    transform: scale(0.95); /* Efecto de reducción al presionar */
+}
+  
+/* Contenedor de resultados */
+.result-card {
+    margin: 15px auto; /* Centra el contenedor y añade espacio superior e inferior */
+    padding: 20px; /* Añadir espacio interno */
+    background-color: #e3f2fd; /* Fondo azul clarito */
+    border: 2px solid #90caf9; /* Bordes azul */
+    border-radius: 16px; /* Bordes del contenedor de resultados a 16px */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    color: #0d47a1; /* Texto azul que contrasta */
+    text-align: left; /* Alinear el texto a la izquierda */
+    width: 100%; /* Hace que el contenedor de resultados ocupe todo el ancho */
+    max-width: 600px; /* Limita el ancho máximo */
+}
+
+/* Media queries para mejorar la responsividad */
+@media (max-width: 600px) {
+    .submit-btn {
+        padding: 15px 30px; /* Aumentar el tamaño del botón en móviles */
+        font-size: 18px; /* Aumentar el tamaño de la fuente */
+    }
+}/* Fuente Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 16px; /* Bordes del contenedor a 16px */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo de las preguntas */
+.question {
+    margin-bottom: 20px;
+}
+
+/* Slider Estilo */
+.slider-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 10px; /* Bordes del slider a 10px */
+    background: #d1d1d1;
+    outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #007bff;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #007bff;
+    cursor: pointer;
+}
+
+/* Etiquetas de las respuestas */
+.label-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 8px; /* Espacio entre la barra y las etiquetas */
+}
+
+.labels {
+    display: flex;              /* Habilita flexbox */
+    justify-content: space-between; /* Espacia los elementos automáticamente */
+    font-size: 12px; /* Tamaño de fuente */
+    color: #555;
+    text-align: center; /* Centra el texto de las etiquetas */
+    width: 100%; /* Asegura que cada etiqueta ocupe un 20% */
+}
+
+/* Contenedor de botón de Submit */
+.fill-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+/* Contenedor de resultados */
+.result-card {
+    max-width: 300px; /* Limita el ancho máximo */
+    margin: 50px auto; /* Centra el contenedor y añade espacio superior e inferior */
+    padding: 20px; /* Añadir espacio interno */
+    background-color: #e3f2fd; /* Fondo azul clarito */
+    border: 2px solid #90caf9; /* Bordes azul */
+    border-radius: 16px; /* Bordes del contenedor de resultados a 16px */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    color: #0d47a1; /* Texto azul que contrasta */
+    text-align: left; /* Alinear el texto a la izquierda */
+   
+}
+
+/* Media queries para mejorar la responsividad */
+@media (max-width: 600px) {
+    .submit-btn {
+        padding: 15px 30px; /* Aumentar el tamaño del botón en móviles */
+        font-size: 18px; /* Aumentar el tamaño de la fuente */
+    }
+}
